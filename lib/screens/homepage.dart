@@ -37,7 +37,7 @@ class HomePage extends ConsumerWidget {
         onPressed: () {
           ref.read(moviesProvider.notifier).fetchmovies();
         },
-        child: const Icon(Icons.run_circle),
+        child: const Icon(Icons.download),
       ),
     );
   }
